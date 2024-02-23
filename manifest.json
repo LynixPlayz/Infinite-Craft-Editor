@@ -1,0 +1,16 @@
+{
+    "name": "Infinite Craft Addons",
+    "description": "Adds useful addons and scripts for Infinite Craft.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "logo.png"
+    },
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["content.js"]
+        }
+      ]
+}
